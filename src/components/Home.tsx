@@ -25,7 +25,7 @@ function Home() {
     <div className="home">
       <div className="home_title">
         <Markdown>{markdownText}</Markdown>
-        {/* <img src={imgSrc} alt="sample img" /> */}
+        <img src={imgSrc} alt="sample img" />
       </div>
     </div>
   );
