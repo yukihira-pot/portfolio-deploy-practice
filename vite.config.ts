@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     outDir: './dist',
   },
-  base: '/portfolio-deploy-practice/',
+  // base: '/',
   plugins: [react()],
 })

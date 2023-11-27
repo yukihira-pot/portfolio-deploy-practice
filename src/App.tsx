@@ -11,9 +11,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route Component={Home} path="/portfolio-deploy-practice/" />
-          <Route Component={About} path="/portfolio-deploy-practice/about" />
-          <Route Component={Post} path="/portfolio-deploy-practice/post" />
+          <Route Component={Home} path="/" />
+          <Route Component={About} path="/about" />
+          <Route Component={Post} path="/post" />
         </Routes>
       </BrowserRouter>
     </>

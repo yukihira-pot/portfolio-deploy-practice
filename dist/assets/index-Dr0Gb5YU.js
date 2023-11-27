@@ -92,4 +92,5 @@ Error generating stack: `+l.message+`
 - list2
 - list3
 - [link to google](https://www.google.com)
+[!sample img](imgSrc)
 `;function ax(){return b.jsx("div",{className:"home",children:b.jsxs("div",{className:"home_title",children:[b.jsx(ix,{children:ux}),b.jsx("img",{src:ox,alt:"sample img"})]})})}function sx(){return b.jsx("div",{children:"About"})}function cx(){return b.jsx(b.Fragment,{children:b.jsx("div",{children:"Post page"})})}function fx(){return b.jsx(b.Fragment,{children:b.jsxs("header",{children:[b.jsx("h1",{children:b.jsx(vo,{to:"/",children:"Portfolio"})}),b.jsx("nav",{children:b.jsxs("ul",{children:[b.jsx("li",{children:b.jsx(vo,{to:"/post",children:"Post"})}),b.jsx("li",{children:b.jsx(vo,{to:"/about",children:"About"})})]})})]})})}function px(){return b.jsx(b.Fragment,{children:b.jsxs(My,{children:[b.jsx(fx,{}),b.jsxs(zy,{children:[b.jsx(Vi,{Component:ax,path:"/"}),b.jsx(Vi,{Component:sx,path:"/about"}),b.jsx(Vi,{Component:cx,path:"/post"})]})]})})}No.createRoot(document.getElementById("root")).render(b.jsx(af.StrictMode,{children:b.jsx(px,{})}));

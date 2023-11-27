@@ -5,12 +5,12 @@ function Navbar() {
     <>
       <header>
         <h1>
-          <NavLink to='/portfolio-deploy-practice/'>Portfolio</NavLink>
+          <NavLink to='/'>Portfolio</NavLink>
         </h1>
         <nav>
           <ul>
-            <li><NavLink to="/portfolio-deploy-practice/post">Post</NavLink></li>
-            <li><NavLink to="/portfolio-deploy-practice/about">About</NavLink></li>
+            <li><NavLink to="/post">Post</NavLink></li>
+            <li><NavLink to="/about">About</NavLink></li>
           </ul>
         </nav>
       </header>
